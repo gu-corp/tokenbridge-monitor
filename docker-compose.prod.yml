@@ -103,7 +103,7 @@ services:
     volumes:
       - ./config.yml:/app/config.yml
   reprocess_block_range:
-    container_name: fix_block_timestamps
+    container_name: reprocess_block_range
     build: .
     entrypoint: [ "./reprocess_block_range" ]
     env_file:
