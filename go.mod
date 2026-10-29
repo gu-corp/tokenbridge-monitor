@@ -1,11 +1,11 @@
 module github.com/omni/tokenbridge-monitor
 
-go 1.19
+go 1.24
 
 require (
 	github.com/Masterminds/squirrel v1.5.2
 	github.com/ethereum/go-ethereum v1.10.23
-	github.com/go-chi/chi/v5 v5.0.7
+	github.com/go-chi/chi/v5 v5.4.0
 	github.com/golang-migrate/migrate/v4 v4.15.2
 	github.com/jackc/pgx/v4 v4.13.0
 	github.com/jmoiron/sqlx v1.3.5
